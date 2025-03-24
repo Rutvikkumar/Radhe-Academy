@@ -27,6 +27,7 @@ import {
   Cpu,
   PenTool,
 } from "lucide-react";
+import InstructorCard from "@/component/InstructorCard.jsx"
 import "./App.css";
 
 function App() {
@@ -78,14 +79,14 @@ function App() {
       name: "Dr. Sarah Johnson",
       role: "Lead Instructor, Web Development",
       bio: "Ph.D. in Computer Science with 10+ years of industry experience at major tech companies. Specializes in modern web technologies and frameworks.",
-      image: "/api/placeholder/400/400",
+      image: "../public/profile.jpg",
     },
     {
       id: 2,
       name: "Prof. Michael Chen",
       role: "Senior Instructor, Programming",
       bio: "Former software architect with 15+ years experience developing enterprise applications. Master's in Software Engineering and certified in multiple programming languages.",
-      image: "/api/placeholder/400/400",
+      image: "../public/profile.jpg",
     },
   ];
   return (
